@@ -19,6 +19,5 @@ This function draws the valid scores
 An interactive graphing tool for the cluster validation scores
 }
 \author{
-Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
+   Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
 }
-

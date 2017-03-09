@@ -40,17 +40,5 @@ considers both the magnitude and slope differences with contemprary weight chose
 by the user and uses this combined distance matrix to reach a dendogram of the genes.
 }
 \author{
-   Ozan Cinar \email{ozancinar@maastrichtuniversity.nl} \cr
-   Ozlem Ilk-Dag 
-   Cem Iyigun
+   Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
 }
-
-\examples{
-# Generate a data with the default arguments. 
-# data <- generateRepData()
-
-# exp <- data$expvals
-# hclust <- cgr(data = exp, tps = rep(c(1:6), 2), reps = rep(1:2, each = 6)) 
-}
-
-
