@@ -1,0 +1,11 @@
+Package: cgr
+Type: Package
+Title: Clustering Genes with Replication in Short Time Series
+Version: 0.1
+Date: 2015-10-01
+Author: Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
+Maintainer: Ozan Cinar <ozan.cinar@maastrichtuniversity.nl>
+Description: This is a methodology to cluster the gene expression levels with possible dissimilar replicates and detect the number of clusters when it is not known a priori.
+License: GPL-3
+LazyData: TRUE
+Depends: manipulate
