@@ -1,19 +1,4 @@
 
-#' Validation Graphs
-#'
-#' This function plots the two validation scores for the given number of cluster sets
-#'
-#' @param valid The list including the validation scores. The result of \code{clValid}
-#' is suggested to be used for this argument.
-#' @param clNumber The interval of the number of cluster sets to be drawn in the plots
-#' #' @return Two graph each of which displaying a single validation scores for the
-#' given number of clusters.
-#' @author Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
-#' @details
-#' This function draws the two validation scores in separated graphs for the desired
-#' number of clusters
-#' @export
-
 validGraph <- function(valid, clNumber, ...) {
 
     clIndex <- sort(intersect(clNumber, valid$clusterNumbers))

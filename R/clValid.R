@@ -1,23 +1,4 @@
 
-#' Evaluating Clusters
-#'
-#' This function finds the cluster validation scores for the desired number of
-#' cluster sets.
-#'
-#' @param hcluster A list including the results of \code{cgr}.
-#' @param clNumber A vector of the desired number of clusters.
-#'
-#' @return A list which includes within and between cluster distances for the
-#' desired number of cluster. Further, the list includes the two validation scores.
-#'
-#' @author Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
-#'
-#' @details
-#' Creates a function for cluster validation. Needs the result object of cgr
-#' with minimum and maximum number of clusters to be searched. At the end it
-#' results the within and between cluster validation values.
-#' @export
-
 clValid <- function(hcluster, clNumber) {
 
     if(min(clNumber) == 1) {stop("Minimum number of clusters cannot be one.

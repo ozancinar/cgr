@@ -1,14 +1,3 @@
-#' Valid Graphs
-#'
-#' This function draws the valid scores
-#'
-#' @param low The lower limit in the graph.
-#' @param op The upper limit in the graph.
-#' @return A graph
-#' @author Ozan Cinar, Ozlem Ilk-Dag, Cem Iyigun
-#' @details
-#' An interactive graphing tool for the cluster validation scores
-#' @export
 
 validPlot <- function(low, up) {
    par(mfrow = c(1, 2))
